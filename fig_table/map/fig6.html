@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_bec0ccd6b6f7468c9030ba9c27bea7ff {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bec0ccd6b6f7468c9030ba9c27bea7ff" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_bec0ccd6b6f7468c9030ba9c27bea7ff = L.map(
+                                  'map_bec0ccd6b6f7468c9030ba9c27bea7ff',
+                                  {center: [22.329,114.169],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_51f8102d82694090b46b77f9e10cdae7 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+        
+    
+            var circle_marker_e1702a7946c94855bdd8f171830defef = L.circleMarker(
+                [22.3480221,114.20059149794315],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 41.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_5af912d271bd4853a373c7fe6d519a81 = L.popup({maxWidth: '300'});
+
+            
+                var html_5caf7a65c26b4881bc895e51185abcd7 = $('<div id="html_5caf7a65c26b4881bc895e51185abcd7" style="width: 100.0%; height: 100.0%;">Tsz Wan Shan Shopping Centre </div>')[0];
+                popup_5af912d271bd4853a373c7fe6d519a81.setContent(html_5caf7a65c26b4881bc895e51185abcd7);
+            
+
+            circle_marker_e1702a7946c94855bdd8f171830defef.bindPopup(popup_5af912d271bd4853a373c7fe6d519a81);
+
+            
+        
+    
+            var circle_marker_afd9ff78a8c049919a9adc8a88bb0b6b = L.circleMarker(
+                [22.32044645,114.17642790325121],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_ce70260971b240809cdc4c2342fe58e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_e89d3805350c40f28842c5d12de698e9 = $('<div id="html_e89d3805350c40f28842c5d12de698e9" style="width: 100.0%; height: 100.0%;">Yee On Court </div>')[0];
+                popup_ce70260971b240809cdc4c2342fe58e1.setContent(html_e89d3805350c40f28842c5d12de698e9);
+            
+
+            circle_marker_afd9ff78a8c049919a9adc8a88bb0b6b.bindPopup(popup_ce70260971b240809cdc4c2342fe58e1);
+
+            
+        
+    
+            var circle_marker_6e496fbe540342c597c35a37f2cb6e8e = L.circleMarker(
+                [22.3293724,114.16093003709891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_f33d918a83724b1d88f3378e1d371979 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d89a055712f49c0a053073629efbc69 = $('<div id="html_6d89a055712f49c0a053073629efbc69" style="width: 100.0%; height: 100.0%;">Pei Ho Street Municipal Services Building </div>')[0];
+                popup_f33d918a83724b1d88f3378e1d371979.setContent(html_6d89a055712f49c0a053073629efbc69);
+            
+
+            circle_marker_6e496fbe540342c597c35a37f2cb6e8e.bindPopup(popup_f33d918a83724b1d88f3378e1d371979);
+
+            
+        
+    
+            var circle_marker_b33fbb2e1bab4d1fa16e8595cf0709cb = L.circleMarker(
+                [22.50199565,114.13054980920595],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_7156a6cdcdab45ff9bb00aad5535c69b = L.popup({maxWidth: '300'});
+
+            
+                var html_e0d517e253e74fd79f561e3c81393220 = $('<div id="html_e0d517e253e74fd79f561e3c81393220" style="width: 100.0%; height: 100.0%;">Shek Wu Hui Municipal Services Building </div>')[0];
+                popup_7156a6cdcdab45ff9bb00aad5535c69b.setContent(html_e0d517e253e74fd79f561e3c81393220);
+            
+
+            circle_marker_b33fbb2e1bab4d1fa16e8595cf0709cb.bindPopup(popup_7156a6cdcdab45ff9bb00aad5535c69b);
+
+            
+        
+    
+            var circle_marker_4e8512045167432b99c5ade247d6ec94 = L.circleMarker(
+                [22.33449625,114.20899915949738],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_a8aff451186a4fb4b85177c569ff70e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a8e1f61e4ae347ac9615ac1baff0f740 = $('<div id="html_a8e1f61e4ae347ac9615ac1baff0f740" style="width: 100.0%; height: 100.0%;">Ngau Chi Wan Municipal Services Building </div>')[0];
+                popup_a8aff451186a4fb4b85177c569ff70e3.setContent(html_a8e1f61e4ae347ac9615ac1baff0f740);
+            
+
+            circle_marker_4e8512045167432b99c5ade247d6ec94.bindPopup(popup_a8aff451186a4fb4b85177c569ff70e3);
+
+            
+        
+    
+            var circle_marker_473c2ad20a584720be3856a32093e8d8 = L.circleMarker(
+                [22.36897565,114.11458210720423],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_24a23f2ad1694a87ae2743c162e5616b = L.popup({maxWidth: '300'});
+
+            
+                var html_5c1c3c46212c4704bb44f64cae1692d8 = $('<div id="html_5c1c3c46212c4704bb44f64cae1692d8" style="width: 100.0%; height: 100.0%;">Yeung Uk Road Municipal Services Building </div>')[0];
+                popup_24a23f2ad1694a87ae2743c162e5616b.setContent(html_5c1c3c46212c4704bb44f64cae1692d8);
+            
+
+            circle_marker_473c2ad20a584720be3856a32093e8d8.bindPopup(popup_24a23f2ad1694a87ae2743c162e5616b);
+
+            
+        
+    
+            var circle_marker_92136b2ef451418bb775358eb0109dac = L.circleMarker(
+                [22.31452665,114.2196432179535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_b84c2226ed614df6a5132608d766c52c = L.popup({maxWidth: '300'});
+
+            
+                var html_a3b7577c1a2c4f0e85e6f0bd22c863c0 = $('<div id="html_a3b7577c1a2c4f0e85e6f0bd22c863c0" style="width: 100.0%; height: 100.0%;">Millennium City 3 </div>')[0];
+                popup_b84c2226ed614df6a5132608d766c52c.setContent(html_a3b7577c1a2c4f0e85e6f0bd22c863c0);
+            
+
+            circle_marker_92136b2ef451418bb775358eb0109dac.bindPopup(popup_b84c2226ed614df6a5132608d766c52c);
+
+            
+        
+    
+            var circle_marker_12a953292bf740a5844fc1a54e673c5e = L.circleMarker(
+                [22.3967961,113.9765462],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_9f7c5ae2629e4092b47c94306cf31c42 = L.popup({maxWidth: '300'});
+
+            
+                var html_df79c0db9fa643c9a9c079a10ae1cf2e = $('<div id="html_df79c0db9fa643c9a9c079a10ae1cf2e" style="width: 100.0%; height: 100.0%;">San Hui Market </div>')[0];
+                popup_9f7c5ae2629e4092b47c94306cf31c42.setContent(html_df79c0db9fa643c9a9c079a10ae1cf2e);
+            
+
+            circle_marker_12a953292bf740a5844fc1a54e673c5e.bindPopup(popup_9f7c5ae2629e4092b47c94306cf31c42);
+
+            
+        
+    
+            var circle_marker_c9fc8671bf5f4f17ae4be380656a8f1c = L.circleMarker(
+                [22.31721975,114.26641680171952],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_8b6a8085b894409c909af22ff35e19da = L.popup({maxWidth: '300'});
+
+            
+                var html_73b9cc31b8ec4f898e590b6e1b443f52 = $('<div id="html_73b9cc31b8ec4f898e590b6e1b443f52" style="width: 100.0%; height: 100.0%;">TKO Gateway </div>')[0];
+                popup_8b6a8085b894409c909af22ff35e19da.setContent(html_73b9cc31b8ec4f898e590b6e1b443f52);
+            
+
+            circle_marker_c9fc8671bf5f4f17ae4be380656a8f1c.bindPopup(popup_8b6a8085b894409c909af22ff35e19da);
+
+            
+        
+    
+            var circle_marker_00e4a033960149a29de66ac619f68241 = L.circleMarker(
+                [22.35809945,114.1276362100475],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_bec0ccd6b6f7468c9030ba9c27bea7ff);
+            
+    
+            var popup_9706e7ee0dfc4cd2bbf79901145a105f = L.popup({maxWidth: '300'});
+
+            
+                var html_8d24281ec15946cdbfd653f1ffa71aca = $('<div id="html_8d24281ec15946cdbfd653f1ffa71aca" style="width: 100.0%; height: 100.0%;">Kwai Chung Plaza </div>')[0];
+                popup_9706e7ee0dfc4cd2bbf79901145a105f.setContent(html_8d24281ec15946cdbfd653f1ffa71aca);
+            
+
+            circle_marker_00e4a033960149a29de66ac619f68241.bindPopup(popup_9706e7ee0dfc4cd2bbf79901145a105f);
+
+            
+        
+</script>
